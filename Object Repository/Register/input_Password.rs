@@ -9,25 +9,29 @@
          <key>XPATH</key>
          <value>//input[@id='inputpassword']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;inputpassword&quot;)[count(. | //input[@class = 'form-control inputtext ng-untouched ng-pristine ng-invalid' and @formcontrolname = 'user_password' and @id = 'inputpassword' and @placeholder = 'Pssst..!' and @ng-reflect-name = 'user_password' and @type = 'password']) = count(//input[@class = 'form-control inputtext ng-untouched ng-pristine ng-invalid' and @formcontrolname = 'user_password' and @id = 'inputpassword' and @placeholder = 'Pssst..!' and @ng-reflect-name = 'user_password' and @type = 'password'])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>form-control inputtext ng-untouched ng-pristine ng-invalid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>formcontrolname</name>
       <type>Main</type>
@@ -41,21 +45,21 @@
       <value>inputpassword</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
       <value>Pssst..!</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-name</name>
       <type>Main</type>
       <value>user_password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>

@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//header[@id='header']/div[2]/ul[2]/li[5]/ul/li[4]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;header&quot;)/div[@class=&quot;collapse pos-rlt navbar-collapse box-shadow bg-white-only&quot;]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu animated fadeInRight w&quot;]/li[4]/a[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

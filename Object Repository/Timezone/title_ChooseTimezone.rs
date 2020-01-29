@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//form[@id='editProfileForm']/div/h3</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;editProfileForm&quot;)/div[@class=&quot;row head-label&quot;]/h3[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

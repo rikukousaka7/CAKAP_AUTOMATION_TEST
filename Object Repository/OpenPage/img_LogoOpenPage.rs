@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//div[@id='page']/div/div/div/header/div/div/div/div/div/div/div/div/a/img</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@class = 'attachment-full size-full astra-logo-svg']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>https://staging.home.cakap.com/wp-content/uploads/2019/07/cakap-logo.svg</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -55,7 +59,7 @@
       <value>100%</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

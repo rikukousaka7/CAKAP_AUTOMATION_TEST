@@ -63,6 +63,20 @@ WebUI.click(findTestObject('ChooseLearning/btn_NEXT'))
 
 WebUI.delay(2)
 
+WebUI.waitForElementPresent(findTestObject('Data_PhoneNum/title_InputPhoneNum'), 30)
+
+WebUI.click(findTestObject('Daya_PhoneNum/btn_CountryContainer'), 10)
+
+WebUI.click(findTestObject('Data_PhoneNum/btn_CHooseIndonesia'), 10)
+
+WebUI.click(findTestObject('Data_PhoneNum/input_PhoneNUm'), 10)
+
+WebUI.setText(findTestObject('Data_PhoneNum/input_PhoneNUm'), GlobalVariable.PhoneNumber)
+
+WebUI.click(findTestObject('Data_PhoneNum/btn_STARTLEARNING'), 30)
+
+WebUI.delay(10)
+
 WebUI.waitForElementPresent(findTestObject('Success Regist/title_SuccessRegist'), 0)
 
 WebUI.click(findTestObject('Success Regist/btn_GoToMyDashboard'), 10)

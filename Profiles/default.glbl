@@ -34,4 +34,9 @@
       <initValue>'Test 1'</initValue>
       <name>LastName</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'81239301331'</initValue>
+      <name>PhoneNumber</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

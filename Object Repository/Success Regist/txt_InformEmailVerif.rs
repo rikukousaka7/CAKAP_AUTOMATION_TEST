@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//p[@id='mail']/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mail&quot;)/span[1]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

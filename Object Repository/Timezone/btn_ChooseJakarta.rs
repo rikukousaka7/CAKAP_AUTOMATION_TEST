@@ -9,18 +9,22 @@
          <key>XPATH</key>
          <value>//li[@id='select2-Timezoneedit-result-gmuy-UP7']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[@class = 'select2-results__option select2-results__option--highlighted' and @id = 'select2-Timezoneedit-result-gmuy-UP7']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -62,7 +66,7 @@
       <value>(GMT+07:00) Krasnoyarsk Time, Bangkok, Hanoi, Jakarta</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
