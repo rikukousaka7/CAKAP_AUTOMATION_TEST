@@ -15,14 +15,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Dashboard/btn_Teacher'), 10)
+WebUI.click(findTestObject('Dashboard/btn_Teacher'))
 
 WebUI.setText(findTestObject('TeacherMenu/input_TeacherSearch'), 'Allaine')
 
-WebUI.click(findTestObject('Teachermenu/btn_Go'), 10)
+WebUI.click(findTestObject('Teachermenu/btn_Go'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('TeacherMenu/btn_ChooseDataTeacher'), 10)
+WebUI.click(findTestObject('TeacherMenu/btn_ChooseDataTeacher'))
 
 WebUI.delay(10)

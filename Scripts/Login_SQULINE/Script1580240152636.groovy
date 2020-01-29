@@ -21,16 +21,17 @@ WebUI.maximizeWindow()
 
 WebUI.waitForElementPresent(findTestObject('LoginPage/img_LogoLogin'), 20)
 
-WebUI.click(findTestObject('LoginPage/input_EmailUser'), 10)
+WebUI.click(findTestObject('LoginPage/input_EmailUser'))
 
 WebUI.setText(findTestObject('LoginPage/input_EmailUser'), GlobalVariable.Username)
 
-WebUI.click(findTestObject('LoginPage/input_PasswordUser'), 10)
+WebUI.click(findTestObject('LoginPage/input_PasswordUser'))
 
-WebUI.setText(findTestObject('LoginPage/PasswordUser'), GlobalVariable.Password)
+WebUI.setEncryptedText(findTestObject('LoginPage/input_PasswordUser'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('LoginPage/img_ShowPassword'), 10)
+WebUI.click(findTestObject('LoginPage/img_ShowPassword'))
 
-WebUI.click(findTestObject('LoginPage/button_LOGIN'),)
+WebUI.click(findTestObject('LoginPage/button_LOGIN'))
 
 WebUI.delay(10)
+

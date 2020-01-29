@@ -19,26 +19,26 @@ WebUI.waitForElementPresent(findTestObject('Logout/btn_UserProf'), 60)
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Logout/btn_CascadeUserProf'), 10)\
+WebUI.click(findTestObject('Logout/btn_CascadeUserProf'))
 
-WebUI.click(findTestObject('Dashboard/btn_Profile'), 10)
+WebUI.click(findTestObject('Dashboard/btn_Profile'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Dashboard/btn_EditProfile'), 10)
+WebUI.click(findTestObject('Dashboard/btn_EditProfile'))
 
-WebUI.click(findTestObject('Dashboard/input_BirthDate'), 10)
+WebUI.click(findTestObject('Dashboard/input_BirthDate'))
 
 WebUI.setText(findTestObject('Dashboard/input_BirthDate'),'1995-06-07')
 
-WebUI.click(findTestObject('Dashboard/input__City'), 10)
+WebUI.click(findTestObject('Dashboard/input__City'))
 
 WebUI.setText(findTestObject('Dashboard/input__City'),'Jakarta')
 
-WebUI.click(findTestObject('Dashboard/input_Address'), 10)
+WebUI.click(findTestObject('Dashboard/input_Address'))
 
 WebUI.setText(findTestObject('Dashboard/input_Address'),'Jl.Kebon Pala 1 Kelurahan Kebon Melati Kecamatan Tanah Abang')
 
-WebUI.click(findTestObject('Dashboard/btn_Close'), 10)
+WebUI.click(findTestObject('Dashboard/btn_Close'))
 
 WebUI.delay(10)

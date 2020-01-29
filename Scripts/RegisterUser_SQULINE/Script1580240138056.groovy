@@ -21,7 +21,7 @@ WebUI.waitForElementPresent(findTestObject('Register/img_LogoRegister'), 30)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Register/input_Email'), 10)
+WebUI.click(findTestObject('Register/input_Email'))
 
 WebUI.setText(findTestObject('Register/input_Email'), GlobalVariable.Username)
 
@@ -31,21 +31,21 @@ WebUI.click(findTestObject('Register/btn_Male'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Register/input_FirstName'), 10)
+WebUI.click(findTestObject('Register/input_FirstName'))
 
 WebUI.setText(findTestObject('Register/input_FirstName'), GlobalVariable.FirstName)
 
-WebUI.click(findTestObject('Register/input_LastName'), 10)
+WebUI.click(findTestObject('Register/input_LastName'))
 
 WebUI.setText(findTestObject('Register/input_LastName'), GlobalVariable.LastName)
 
-WebUI.click(findTestObject('Register/input_Password'), 10)
+WebUI.click(findTestObject('Register/input_Password'))
 
-WebUI.setText(findTestObject('Register/input_Password'), GlobalVariable.Password)
+WebUI.setEncryptedText(findTestObject('Register/input_Password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('Register/input_ConfirmPassword'), 10)
+WebUI.click(findTestObject('Register/input_ConfirmPassword'))
 
-WebUI.setText(findTestObject('Register/input_ConfirmPassword'), GlobalVariable.Password)
+WebUI.setEncryptedText(findTestObject('Register/input_ConfirmPassword'), GlobalVariable.Password)
 
 WebUI.delay(2)
 
@@ -55,7 +55,7 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('ChooseLearning/title_ChooseLearning'), 60)
 
-WebUI.click(findTestObject('ChooseLearning/btn_EnglishCourse'), 10)
+WebUI.click(findTestObject('ChooseLearning/btn_EnglishCourse'))
 
 WebUI.delay(2)
 
@@ -65,27 +65,27 @@ WebUI.delay(2)
 
 WebUI.waitForElementPresent(findTestObject('Data_PhoneNum/title_InputPhoneNum'), 30)
 
-WebUI.click(findTestObject('Daya_PhoneNum/btn_CountryContainer'), 10)
+WebUI.click(findTestObject('Daya_PhoneNum/btn_CountryContainer'))
 
-WebUI.click(findTestObject('Data_PhoneNum/btn_CHooseIndonesia'), 10)
+WebUI.click(findTestObject('Data_PhoneNum/btn_CHooseIndonesia'))
 
-WebUI.click(findTestObject('Data_PhoneNum/input_PhoneNUm'), 10)
+WebUI.click(findTestObject('Data_PhoneNum/input_PhoneNUm'))
 
 WebUI.setText(findTestObject('Data_PhoneNum/input_PhoneNUm'), GlobalVariable.PhoneNumber)
 
-WebUI.click(findTestObject('Data_PhoneNum/btn_STARTLEARNING'), 30)
+WebUI.click(findTestObject('Data_PhoneNum/btn_STARTLEARNING'))
 
 WebUI.delay(10)
 
-WebUI.waitForElementPresent(findTestObject('Success Regist/title_SuccessRegist'), 0)
+WebUI.waitForElementPresent(findTestObject('Success Regist/title_SuccessRegist'), 60)
 
-WebUI.click(findTestObject('Success Regist/btn_GoToMyDashboard'), 10)
+WebUI.click(findTestObject('Success Regist/btn_GoToMyDashboard'))
 
 WebUI.delay(2)
 
-WebUI.waitForElementPresent(findTestObject('Timezone/title_ChooseTimezone'), 10)
+WebUI.waitForElementPresent(findTestObject('Timezone/title_ChooseTimezone'), 60)
 
-WebUI.click(findTestObject('Timezone/btn_CascadeTimezone'), 10)
+WebUI.click(findTestObject('Timezone/btn_CascadeTimezone'))
 
-WebUI.click(findTestObject('Timezone/btn_OK'), 10)
+WebUI.click(findTestObject('Timezone/btn_OK'))
 

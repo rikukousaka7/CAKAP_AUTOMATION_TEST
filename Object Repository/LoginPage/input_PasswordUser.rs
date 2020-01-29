@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//input[@type='password']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@class = 'text-center fill ng-untouched ng-pristine ng-invalid' and @placeholder = 'Password']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

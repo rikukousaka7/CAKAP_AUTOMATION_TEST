@@ -19,13 +19,13 @@ WebUI.waitForElementPresent(findTestObject('Logout/btn_UserProf'), 60)
 
 WebUI.delay(15)
 
-WebUI.click(findTestObject('Logout/btn_CascadeUserProf'), 10)
+WebUI.click(findTestObject('Logout/btn_CascadeUserProf'))
 
-WebUI.click(findTestObject('Logout/btn_Logout'), 30)
+WebUI.click(findTestObject('Logout/btn_Logout'))
 
-WebUI.delay(5)
+WebUI.delay(10)
 
-WebUI.waitForElementPresent(findTestObject('OpenPage/txt_Masuk'), 0)
+WebUI.waitForElementPresent(findTestObject('OpenPage/txt_Masuk'), 120)
 
 WebUI.delay(2)
 

@@ -19,28 +19,28 @@ WebUI.click(findTestObject('Dashboard/btn_MyClass'), 10)
 
 WebUI.delay(10)
 
-WebUI.waitForElementPresent(findTestObject('MyClass/title_MyClassMenu'), 20)
+WebUI.waitForElementPresent(findTestObject('MyClass/title_MyClassMenu'), 60)
 
-WebUI.click(findTestObject('MyClass/btn_BookedClass'), 10)
+WebUI.click(findTestObject('MyClass/btn_BookedClass'))
 
-WebUI.click(findTestObject('MyClass/btn_BookedClass'), 10)
+WebUI.click(findTestObject('MyClass/btn_BookedClass'))
 
-WebUI.click(findTestObject('MyClass/btn_ClassHistory'), 10)
+WebUI.click(findTestObject('MyClass/btn_ClassHistory'))
 
-WebUI.click(findTestObject('MyClass/btn_ClassHistory'), 10)
+WebUI.click(findTestObject('MyClass/btn_ClassHistory'))
 
-WebUI.click(findTestObject('MyClass/btn_MyNextClassDropDown'), 10)
+WebUI.click(findTestObject('MyClass/btn_MyNextClassDropDown'))
 
-WebUI.click(findTestObject('MyClass/btn_MyNextClassDropDown'), 10)
+WebUI.click(findTestObject('MyClass/btn_MyNextClassDropDown'))
 
-WebUI.click(findTestObject('MyClass/input_ClassHistory'), 10)
+WebUI.click(findTestObject('MyClass/input_ClassHistory'))
 
 WebUI.setText(findTestObject('MyClass/input_ClassHistory'), 'EnglishCourse')
 
-WebUI.click(findTestObject('Teachermenu/btn_Go'), 10)
+WebUI.click(findTestObject('Teachermenu/btn_Go'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('TeacherMenu/btn_ChooseDataTeacher'), 10)
+WebUI.click(findTestObject('TeacherMenu/btn_ChooseDataTeacher'))
 
 WebUI.delay(10)
