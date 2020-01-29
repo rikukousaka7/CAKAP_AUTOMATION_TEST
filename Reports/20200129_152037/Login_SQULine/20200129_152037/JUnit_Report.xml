@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_SQULine" time="171.449" tests="2" failures="0" errors="2">
+   <testsuite name="Login_SQULine" tests="2" failures="0" errors="2" time="171.449" timestamp="2020-01-29 15:20:41" hostname="admin - IGS-FJRR" id="Test Suites/Login_SQULine">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\admin\\git\\CAKAP_TEST\\Reports\\20200129_152037\\Login_SQULine\\20200129_152037"/>
+         <property name="logFiles" value="C:\\Users\\admin\\git\\CAKAP_TEST\\Reports\\20200129_152037\\Login_SQULine\\20200129_152037\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="admin - IGS-FJRR"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.130"/>
+         <property name="hostAddress" value="192.168.43.234"/>
+         <property name="sessionId" value="afac0054b7bfab7877f0b45492a1121d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=-1}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login_SQULINE" time="75.116" classname="Test Cases/Login_SQULINE" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/LoginPage/input_EmailUser', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Login_SQULINE.run(Login_SQULINE:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-29 15:20:41 - [TEST_CASE][ERROR] - Test Cases/Login_SQULINE: Test Cases/Login_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/LoginPage/input_EmailUser', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Login_SQULINE.run(Login_SQULINE:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)
+
+
+2020-01-29 15:20:42 - [TEST_STEP][PASSED] - openBrowser(URL_Login): Browser is opened with url: 'https://staging.student.cakap.com/login'
+
+2020-01-29 15:20:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-29 15:20:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-29 15:21:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://staging.student.cakap.com/login'
+
+2020-01-29 15:21:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-29 15:21:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-29 15:21:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("LoginPage/img_LogoLogin"), 20): Object 'Object Repository/LoginPage/img_LogoLogin' is present
+
+2020-01-29 15:21:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoginPage/img_LogoLogin' is present
+
+2020-01-29 15:21:56 - [TEST_STEP][PASSED] - click(findTestObject("LoginPage/input_EmailUser"), 10): null]]></system-out>
+         <system-err><![CDATA[2020-01-29 15:20:41 - [TEST_CASE][ERROR] - Test Cases/Login_SQULINE: Test Cases/Login_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/LoginPage/input_EmailUser', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Login_SQULINE.run(Login_SQULINE:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout_SQULINE" time="94.768" classname="Test Cases/Logout_SQULINE" status="ERROR">
+         <error type="ERROR" message="Test Cases/Logout_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Logout/btn_CascadeUserProf', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Logout_SQULINE.run(Logout_SQULINE:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)
+"/>
+         <system-out><![CDATA[2020-01-29 15:21:56 - [TEST_CASE][ERROR] - Test Cases/Logout_SQULINE: Test Cases/Logout_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Logout/btn_CascadeUserProf', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Logout_SQULINE.run(Logout_SQULINE:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)
+
+
+2020-01-29 15:21:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Logout/btn_UserProf"), 60): Object 'Object Repository/Logout/btn_UserProf' is not present after 60 second(s)
+
+2020-01-29 15:23:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@class = 'hidden-sm hidden-md']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-01-29 15:23:16 - [MESSAGE][WARNING] - Object 'Object Repository/Logout/btn_UserProf' is not present after 60 second(s)
+
+2020-01-29 15:23:16 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-29 15:23:31 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-29 15:23:31 - [TEST_STEP][PASSED] - click(findTestObject("Logout/btn_CascadeUserProf"), 10): null]]></system-out>
+         <system-err><![CDATA[2020-01-29 15:21:56 - [TEST_CASE][ERROR] - Test Cases/Logout_SQULINE: Test Cases/Logout_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/Logout/btn_CascadeUserProf', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Logout_SQULINE.run(Logout_SQULINE:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-29 15:20:41 - [TEST_SUITE][ERROR] - Login_SQULine: Test Cases/Login_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/LoginPage/input_EmailUser', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Login_SQULINE.run(Login_SQULINE:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)]]></system-out>
+      <system-err><![CDATA[2020-01-29 15:20:41 - [TEST_SUITE][ERROR] - Login_SQULine: Test Cases/Login_SQULINE FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click() is applicable for argument types: (com.kms.katalon.core.testobject.TestObject, java.lang.Integer) values: [TestObject - 'Object Repository/LoginPage/input_EmailUser', ...]
+Possible solutions: click(com.kms.katalon.core.testobject.TestObject), click(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), check(com.kms.katalon.core.testobject.TestObject), check(com.kms.katalon.core.testobject.TestObject, com.kms.katalon.core.model.FailureHandling), back(), wait()
+	at Login_SQULINE.run(Login_SQULINE:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1580286037767.run(TempTestSuite1580286037767.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

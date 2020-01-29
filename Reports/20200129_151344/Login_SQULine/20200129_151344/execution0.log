@@ -175,3 +175,4 @@
   <nestedLevel>1</nestedLevel>
   <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=-1}</property>
 </record>
+</log>
