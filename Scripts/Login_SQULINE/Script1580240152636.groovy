@@ -17,6 +17,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.URL_Login)
 
+WebUI.maximizeWindow()
+
 WebUI.waitForElementPresent(findTestObject('LoginPage/img_LogoLogin'), 20)
 
 WebUI.click(findTestObject('LoginPage/input_EmailUser'), 10)
