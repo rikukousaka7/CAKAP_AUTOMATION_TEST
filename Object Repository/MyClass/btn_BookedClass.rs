@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_JapaneseCourse</name>
+   <name>btn_BookedClass</name>
    <tag></tag>
-   <elementGuidId>8a128388-54d6-4033-aa3f-55ace62beb6c</elementGuidId>
+   <elementGuidId>88de5240-0cb8-483f-9233-c3184a065968</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[@class = 'toggle-btn pill w-sm-120 course selected']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//label[@onclick=''])[3]</value>
+         <value>//div[@id='content']/div/div[2]/div/div[2]/div/app-my-class/div/app-booked-class/div/div/div/h3/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +17,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>toggle-btn pill w-sm-120 course selected</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-klass</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 cours</value>
+      <value>collapse</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>[object Object]</value>
+      <value>#collapse1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>true</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Japanese Course</value>
+      <value> Booked Class </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selectCourse&quot;)/div[@class=&quot;row course-wrapper&quot;]/div[@class=&quot;col-md-6 col-xs-12 course-select ng-star-inserted&quot;]/label[@class=&quot;toggle-btn pill w-sm-120 course selected&quot;]</value>
+      <value>id(&quot;content&quot;)/div[@class=&quot;app-content-body&quot;]/div[@class=&quot;hbox hbox-auto-xs hbox-auto-sm&quot;]/div[@class=&quot;col wrapper-md&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/app-my-class[1]/div[@class=&quot;row&quot;]/app-booked-class[@class=&quot;col-md-6 col-sm-12&quot;]/div[@class=&quot;panel-group&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-heading bg-blue&quot;]/h3[@class=&quot;panel-title&quot;]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//label[@onclick=''])[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='selectCourse']/div/div[3]/label</value>
+      <value>//div[@id='content']/div/div[2]/div/div[2]/div/app-my-class/div/app-booked-class/div/div/div/h3/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Booked Class')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English Course'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Class'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mandarin Course'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Next Class'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Call testing'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search:'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Booked Class']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '#collapse1')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
+      <value>//h3/a</value>
    </webElementXpaths>
 </WebElementEntity>

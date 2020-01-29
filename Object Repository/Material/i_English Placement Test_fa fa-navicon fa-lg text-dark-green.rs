@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_English Placement Test_fa fa-navicon fa-lg text-dark-green</name>
+   <tag></tag>
+   <elementGuidId>a9b52475-1b78-4c3e-92a6-799645258a6a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div[2]/div/div[2]/div/app-material/div/div[2]/div/div/div/div/div/div/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-navicon fa-lg text-dark-green</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;app-content-body&quot;]/div[@class=&quot;hbox hbox-auto-xs hbox-auto-sm&quot;]/div[@class=&quot;col wrapper-md&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/app-material[1]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[1]/div[@class=&quot;material-data&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-md-4 mypanel-33&quot;]/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-heading clearfix bg-green&quot;]/a[@class=&quot;pull-right text-dark-green&quot;]/i[@class=&quot;fa fa-navicon fa-lg text-dark-green&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div[2]/div/div[2]/div/app-material/div/div[2]/div/div/div/div/div/div/a/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

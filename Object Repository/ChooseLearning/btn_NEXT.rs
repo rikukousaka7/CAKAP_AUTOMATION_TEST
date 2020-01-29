@@ -6,12 +6,12 @@
    <elementGuidId>688f6c63-dba4-4d4a-914b-fec8a1915c7c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='selectCourse']/button</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//button[@class = 'btn btn-success next']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='selectCourse']/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

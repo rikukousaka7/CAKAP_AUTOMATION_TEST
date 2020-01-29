@@ -6,12 +6,12 @@
    <elementGuidId>1016d53a-6bf7-4723-bb94-e09545f83698</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@onclick='']</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//label[@class = 'toggle-btn pill w-sm-120 course selected']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@onclick='']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_JapaneseCourse</name>
+   <name>txt_DetailError</name>
    <tag></tag>
-   <elementGuidId>8a128388-54d6-4033-aa3f-55ace62beb6c</elementGuidId>
+   <elementGuidId>34ad24b1-aadc-49ed-a559-1d4379a8a882</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[@class = 'toggle-btn pill w-sm-120 course selected']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//label[@onclick=''])[3]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::modal-container[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +17,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>modal-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 course selected</value>
+      <value>modal fade in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-klass</name>
+      <name>role</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 cours</value>
+      <value>dialog</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>[object Object]</value>
+      <value>-1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Japanese Course</value>
+      <value>×Your Account is InactiveYou can't book this class, because you haven't verify your email  Please check your email as registered or you can change your email on input field below.If you can not find your verification email, please check your spam/junk folder or  please contact us if you  haven't received any email from us within an hour.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selectCourse&quot;)/div[@class=&quot;row course-wrapper&quot;]/div[@class=&quot;col-md-6 col-xs-12 course-select ng-star-inserted&quot;]/label[@class=&quot;toggle-btn pill w-sm-120 course selected&quot;]</value>
+      <value>/html[1]/body[@class=&quot;modal-open&quot;]/modal-container[@class=&quot;modal fade in&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(//label[@onclick=''])[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='selectCourse']/div/div[3]/label</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::modal-container[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English Course'])[1]/following::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mandarin Course'])[1]/following::label[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Call testing'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[2]/following::modal-container[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
+      <value>//modal-container</value>
    </webElementXpaths>
 </WebElementEntity>

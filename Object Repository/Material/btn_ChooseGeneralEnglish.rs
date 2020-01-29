@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_JapaneseCourse</name>
+   <name>btn_ChooseGeneralEnglish</name>
    <tag></tag>
-   <elementGuidId>8a128388-54d6-4033-aa3f-55ace62beb6c</elementGuidId>
+   <elementGuidId>ca7c7739-e426-4b49-b072-c8f11715bae3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[@class = 'toggle-btn pill w-sm-120 course selected']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//label[@onclick=''])[3]</value>
+         <value>//li[@id='select2-cbxCategory-result-jg0s-5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +17,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 course selected</value>
+      <value>select2-results__option select2-results__option--highlighted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-cbxCategory-result-jg0s-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-klass</name>
+      <name>role</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 cours</value>
+      <value>treeitem</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
+      <name>aria-selected</name>
       <type>Main</type>
-      <value>[object Object]</value>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-select2-id</name>
+      <type>Main</type>
+      <value>select2-cbxCategory-result-jg0s-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Japanese Course</value>
+      <value>General English</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selectCourse&quot;)/div[@class=&quot;row course-wrapper&quot;]/div[@class=&quot;col-md-6 col-xs-12 course-select ng-star-inserted&quot;]/label[@class=&quot;toggle-btn pill w-sm-120 course selected&quot;]</value>
+      <value>id(&quot;select2-cbxCategory-result-jg0s-5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//label[@onclick=''])[3]</value>
+      <value>//li[@id='select2-cbxCategory-result-jg0s-5']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='selectCourse']/div/div[3]/label</value>
+      <value>//ul[@id='select2-cbxCategory-results']/li</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English Course'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'select2-cbxCategory-result-jg0s-5', '&quot;', ')')])[1]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mandarin Course'])[1]/following::label[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Call testing'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
+      <value>//span[2]/ul/li</value>
    </webElementXpaths>
 </WebElementEntity>

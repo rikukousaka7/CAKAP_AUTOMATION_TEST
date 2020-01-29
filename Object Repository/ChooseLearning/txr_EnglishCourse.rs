@@ -6,12 +6,12 @@
    <elementGuidId>9565f0fc-79d9-4b07-b300-f5c664850a5c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='selectCourse']/div/div[2]/label/span</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//span[@class = 'country-text']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='selectCourse']/div/div[2]/label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

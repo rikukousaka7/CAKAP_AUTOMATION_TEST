@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_JapaneseCourse</name>
+   <name>input__BirthDate</name>
    <tag></tag>
-   <elementGuidId>8a128388-54d6-4033-aa3f-55ace62beb6c</elementGuidId>
+   <elementGuidId>ccdf8ed4-568c-41ee-b44b-185c8de6ca22</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//label[@class = 'toggle-btn pill w-sm-120 course selected']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>(//label[@onclick=''])[3]</value>
+         <value>//input[@id='BirthDate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,83 +17,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 course selected</value>
+      <value>form-control ng-touched ng-dirty ng-valid</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-klass</name>
+      <name>formcontrolname</name>
       <type>Main</type>
-      <value>toggle-btn pill w-sm-120 cours</value>
+      <value>user_birthdate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>BirthDate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-reflect-ng-class</name>
+      <name>ng-reflect-name</name>
       <type>Main</type>
-      <value>[object Object]</value>
+      <value>user_birthdate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>Japanese Course</value>
+      <value>Enter Your Birth Date</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;selectCourse&quot;)/div[@class=&quot;row course-wrapper&quot;]/div[@class=&quot;col-md-6 col-xs-12 course-select ng-star-inserted&quot;]/label[@class=&quot;toggle-btn pill w-sm-120 course selected&quot;]</value>
+      <value>id(&quot;BirthDate&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//label[@onclick=''])[3]</value>
+      <value>//input[@id='BirthDate']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='selectCourse']/div/div[3]/label</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='English Course'])[1]/following::label[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mandarin Course'])[1]/following::label[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Call testing'])[1]/preceding::label[1]</value>
+      <value>//form[@id='editProfileForm']/div/div/div[4]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
+      <value>//div[4]/input</value>
    </webElementXpaths>
 </WebElementEntity>
