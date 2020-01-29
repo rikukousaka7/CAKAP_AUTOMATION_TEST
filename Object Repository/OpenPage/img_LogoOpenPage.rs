@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_LogoOpenPage</name>
+   <tag></tag>
+   <elementGuidId>909d88d1-5589-4d16-b7c0-38e86b5bc7da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page']/div/div/div/header/div/div/div/div/div/div/div/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://staging.home.cakap.com/wp-content/uploads/2019/07/cakap-logo.svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>attachment-full size-full astra-logo-svg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Cakap Logo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>100%</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>100%</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page&quot;)/div[@class=&quot;elementor elementor-10740 elementor-location-header&quot;]/div[@class=&quot;elementor-inner&quot;]/div[@class=&quot;elementor-section-wrap&quot;]/header[@class=&quot;elementor-element elementor-element-2891fbc elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle elementor-section elementor-top-section&quot;]/div[@class=&quot;elementor-container elementor-column-gap-no&quot;]/div[@class=&quot;elementor-row&quot;]/div[@class=&quot;elementor-element elementor-element-4e84d420 elementor-column elementor-col-25 elementor-top-column&quot;]/div[@class=&quot;elementor-column-wrap  elementor-element-populated&quot;]/div[@class=&quot;elementor-widget-wrap&quot;]/div[@class=&quot;elementor-element elementor-element-2c2764bd elementor-widget elementor-widget-theme-site-logo elementor-widget-image&quot;]/div[@class=&quot;elementor-widget-container&quot;]/div[@class=&quot;elementor-image&quot;]/a[1]/img[@class=&quot;attachment-full size-full astra-logo-svg&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page']/div/div/div/header/div/div/div/div/div/div/div/div/a/img</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Cakap Logo']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+   </webElementXpaths>
+</WebElementEntity>
